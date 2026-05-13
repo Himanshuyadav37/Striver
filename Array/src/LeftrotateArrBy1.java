@@ -1,0 +1,2 @@
+public class LeftrotateArrBy1 {
+}
