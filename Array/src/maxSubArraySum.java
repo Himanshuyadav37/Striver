@@ -1,6 +1,6 @@
 public class maxSubArraySum {
 
-    public static void pairSubArray(int[] arr) {
+    public static void maxSubArraySum(int[] arr) {
 
         int totalSubArray = 0;
         int maxSum = Integer.MIN_VALUE;
@@ -32,7 +32,7 @@ public class maxSubArraySum {
 
         int[] arr = {1, -2, 6, -1, 3};
 
-        pairSubArray(arr);
+        maxSubArraySum(arr);
     }
 }
 
