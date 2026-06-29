@@ -8,15 +8,17 @@ class Node {
     }
 }
 
-public class Main {
+ class Main {
     public static void main(String[] args) {
 
-        Node head = new Node(10);
-        Node second = new Node(20);
-        Node third = new Node(30);
+       Node head = new Node(10);
+       Node tail = head;
 
-        head.next = second;
-        second.next = third;
+       tail.next  = new Node(20);
+       tail = tail.next;
+
+       tail.next = new Node(30);
+
 
         System.out.println(head.data);
         System.out.println(head.next.data);
